@@ -43,8 +43,16 @@ The LCM project is active again. The current near-term plan is to:
   * Java
   * Lua
   * MATLAB
-  * Python (Use `cmake -DPython_EXECUTABLE=/path/to/python(>3.6) ..` to install for specific version of Python)
-
+### Python
+To install for a specific version of Python and interpreter first make with proper cmake flag:
+```bash
+ cmake -DPython_EXECUTABLE=/path/to/python(>3.6) ..
+```
+Then, install as follows:
+```bash
+cd lcm/lcm_python
+/path/to/python(>3.6) -m pip install .
+```
 ## Unmaintained languages
 
 The following languages are currently unmaintained. PRs for these languages are still welcome and if
