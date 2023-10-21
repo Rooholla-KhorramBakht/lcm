@@ -43,7 +43,7 @@ The LCM project is active again. The current near-term plan is to:
   * Java
   * Lua
   * MATLAB
-  * Python (3.6 and later)
+  * Python (3.6 and later) (Use `cmake -DPython_EXECUTABLE=/path/to/python ..` to install for specific version of Python)
 
 ## Unmaintained languages
 
